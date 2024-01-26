@@ -1,0 +1,47 @@
+.banner {
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 2px 0px 20px 0px #a47dd685;
+  position: fixed;
+}
+
+.bannerElements {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .logo {
+    width: 150px;
+  }
+  .bannerLinks {
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+    .link {
+      color: #a47dd6;
+      font-weight: 600;
+    }
+  }
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    .account {
+      width: 30px;
+      cursor: pointer;
+    }
+    .cart {
+      width: 50px;
+      cursor: pointer;
+    }
+  }
+}
