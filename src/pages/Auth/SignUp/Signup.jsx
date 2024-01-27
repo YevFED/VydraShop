@@ -10,7 +10,7 @@ export default function Login() {
     <>
       <div className={styles.wrapper}>
         <Banner />
-        <p className={styles.title}>Вхід до акаунту</p>
+        <p className={styles.title}>Реєстрація</p>
         <form className={styles.form} action="#">
           <input
             type="email"
@@ -24,8 +24,22 @@ export default function Login() {
             placeholder="Введіть ваш пароль : "
             className={styles.formInput}
           />
+          <input
+            type="password"
+            minLength={8}
+            maxLength={16}
+            placeholder="Підтвердіть ваш пароль : "
+            className={styles.formInput}
+          />
+          <div className={styles.signInput}>
+            <input type="checkbox" id="checking" />
+            <label for="checking">
+              Ви погоджуєтесь на обробку вашою персональної інформації
+            </label>
+          </div>
+
           <button className={styles.formButton} type="submit">
-            Увійти
+            Зареєструватися
           </button>
           <p onClick={() => setModalActive(true)} className={styles.formLink}>
             Вже маєте акаунт?

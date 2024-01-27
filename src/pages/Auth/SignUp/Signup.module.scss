@@ -14,7 +14,7 @@
     font-weight: 900;
     margin-top: 20px;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 200px;
   }
   .form {
     width: 700px;
@@ -51,7 +51,29 @@
     .formInput:focus {
       border-radius: 0px;
       transition: 0.3s ease-in-out;
+      background-color: rgba(0, 0, 0, 0.2);
       .formInput::placeholder {
+      }
+    }
+
+    .signInput {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+      input {
+        background-color: #a47dd6;
+        width: 15px;
+        height: 15px;
+        accent-color: #a47dd6;
+      }
+      input:checked + label {
+        color: white;
+        font-weight: 300;
+      }
+      label {
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.527);
       }
     }
 
