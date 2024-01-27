@@ -34,7 +34,7 @@ export default function Login() {
           <div className={styles.signInput}>
             <input type="checkbox" id="checking" />
             <label for="checking">
-              Ви погоджуєтесь на обробку вашою персональної інформації
+              Ви погоджуєтесь на обробку вашої персональної інформації
             </label>
           </div>
 

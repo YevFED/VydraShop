@@ -6,9 +6,11 @@ import Image2 from "../../assets/cardData/Image2.jpg";
 const cardData = [
   {
     image: Image1,
+    id: 1,
   },
   {
     image: Image2,
+    id: 2,
   },
 ];
 

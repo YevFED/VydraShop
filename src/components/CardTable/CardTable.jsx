@@ -7,9 +7,11 @@ export default function CardTable() {
   return (
     <>
       <div className={styles.cardTableWrapper}>
-        {cardData.map((card) => (
-          <Card image={card.image} />
-        ))}
+        <div className={styles.cardTable}>
+          {cardData.map((card) => (
+            <Card image={card.image} index={card.id} />
+          ))}
+        </div>
       </div>
     </>
   );
