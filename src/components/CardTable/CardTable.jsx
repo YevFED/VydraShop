@@ -9,7 +9,12 @@ export default function CardTable() {
       <div className={styles.cardTableWrapper}>
         <div className={styles.cardTable}>
           {cardData.map((card) => (
-            <Card image={card.image} index={card.id} />
+            <Card
+              image={card.image}
+              index={card.id}
+              name={card.name}
+              price={card.price}
+            />
           ))}
         </div>
       </div>

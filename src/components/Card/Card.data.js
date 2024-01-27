@@ -7,10 +7,14 @@ const cardData = [
   {
     image: Image1,
     id: 1,
+    name: "Dog",
+    price: 150,
   },
   {
     image: Image2,
     id: 2,
+    name: "Bat",
+    price: 200,
   },
 ];
 
